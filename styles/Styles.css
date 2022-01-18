@@ -264,9 +264,19 @@ video{
 
 
 img.circulo2{
-    height: 60%;
-    right: 60%;
+    height: 600%;
+    right: 600%;
+}
+
+
+img.imagen2{
+    padding-top:95px ;
+}
+
+.video2{
     position: relative;
+    bottom: 200px;
+    border-radius: 30px;
 }
 
 
@@ -275,12 +285,26 @@ img.circulo2{
 
 
 
-
-h3{
+.container-text{
     font-family: 'Kanit', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     padding-left: 100px;
 }
+
+.text{
+}
+
+.text i{
+
+    background: -webkit-linear-gradient(#9c47fc, #356ad2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    
+}
+
+
+
 
 /* parrafos de abajo */
 
