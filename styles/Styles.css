@@ -23,7 +23,7 @@ h1{
 
 
 
-p{
+.p1{
     font-family: 'Kanit', sans-serif;
     color: #696969;
     font-size: 1.4em;
@@ -51,6 +51,10 @@ p{
     width: 100%;
     box-shadow: 5px 5px 10px -3px#00000010;
     z-index: 3;
+}
+
+header.header{
+    height: 60px;
 }
 
 .header a{
@@ -190,12 +194,13 @@ img{
 
 
 video{
-    height: 475px;
+    height: 478px;
     justify-content: right;
     padding-left: 215px;
     top: 110px;
     position: absolute;
     aspect-ratio: 9/18;
+    border-radius: 20px;
     z-index: 1;
 }
 
@@ -225,11 +230,6 @@ video{
     display: flex;
 }
 
-
-
-
-
-
 .noteButton{
     margin-top: 25px;
     margin-left: 90px;
@@ -246,61 +246,96 @@ video{
     font-weight: 700px;
     font-family: 'Mulish', sans-serif;
 }
+
 .noteButton a{
     text-decoration: none;
     color: #fff;
 }
 
-
-
-
-
 .noteButton a:hover{
-    color: purple;
+    color: #7b68ee;
     display: flex;
     align-items: flex-end;
 }
 
 
+/* Elementos de celular 2*/
+
+.containercel2{
+    display: flex;
+    justify-content: flex-start;
+    bottom: 100%;
+}
 
 img.circulo2{
-    height: 600%;
-    right: 600%;
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    z-index: -1;
+    bottom: -1040px;%;
+    right: 70%;
 }
 
 
 img.imagen2{
-    padding-top:95px ;
+    padding-top:95px;
 }
 
 .video2{
     position: relative;
     bottom: 200px;
     border-radius: 30px;
+    height: 480px;
+    aspect-ratio: 9/18;
+
 }
 
+.small-circle2{
+    position: relative;
+    max-width: 13px;
+    height: 13px;
+    top: 15%;
+    right: 10%;
+}
 
+.small-x2{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    
+}
+    
 
-
-
-
+/* Elementos al lado de celular 2 */
 
 .container-text{
     font-family: 'Kanit', sans-serif;
     font-size: 15px;
-    padding-left: 100px;
-}
-
-.container-text{
-display: grid;
-grid-template-columns: 1fr 1fr;
-padding: 1rem;
-margin: auto;
-justify-items: center;
-
+    justify-items: center;
+    line-height: 20px;
+    padding-top: 60px;
 
 }
 
+div.container-text{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 260px 260px;
+    padding: 30px;
+    margin: auto;
+}
+
+div.text{
+    size: 10%;
+}
+
+p{
+    color: #696969;
+    font-size: 18px;
+    align-items: center;
+}
 
 .text i{
 
@@ -314,25 +349,7 @@ justify-items: center;
 
 
 
-/* parrafos de abajo */
-
-.details{
-    color: #696969;
-    font-size: 17px;
-    font-family: 'Mulish', sans-serif;
-    padding-left: 20px;
-    line-height: 17px ;
-    
-
-}
-
-
-
-
-
-
-
-
+/* Elementos footer */
 div.containerFooter{
     display: flex;
     justify-content: center;
