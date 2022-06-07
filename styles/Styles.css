@@ -29,6 +29,7 @@ h1{
     font-size: 1.4em;
     padding-top: none;
     padding-left: 100px;
+    text-align: left;
 }
 
 
@@ -110,22 +111,15 @@ header.header{
 
 .button {
     background-color: #4169e1;
-    display: block;
-    padding-left: 22px;
-    padding-right: 6px;
+    color: #fff;
     height: 40px;
     width: 175px;
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 1em;
     overflow: hidden;
-    transition: all 500ms ease;
-    border: 2px solid transparent;
+    border: 0px;
     align-items: center;
 
-}
-
-.button a{
-    color: #fff;
 }
 
 i.bi.bi-chat-text-fill::before{
@@ -233,29 +227,21 @@ video{
 .noteButton{
     margin-top: 25px;
     margin-left: 90px;
-    display: block;
     padding-left: 10px;
     height: 65px;
     width: 250px;
     border-radius: 35px;
     background-color: transparent;
     font-size: 18px;
-    overflow: hidden;
-    transition: all 500ms ease;
     border: 2px solid #fff;
     font-weight: 700px;
     font-family: 'Mulish', sans-serif;
-}
-
-.noteButton a{
-    text-decoration: none;
     color: #fff;
 }
 
-.noteButton a:hover{
+.noteButton:hover{
     color: #7b68ee;
-    display: flex;
-    align-items: flex-end;
+    background-color: #fff;
 }
 
 
@@ -264,7 +250,7 @@ video{
 .containercel2{
     display: flex;
     justify-content: flex-start;
-    bottom: 100%;
+    
 }
 
 img.circulo2{
@@ -272,7 +258,7 @@ img.circulo2{
     width: 270px;
     height: 270px;
     z-index: -1;
-    bottom: -1040px;%;
+    bottom: -1040px;
     right: 70%;
 }
 
@@ -319,22 +305,26 @@ img.imagen2{
 
 }
 
-div.container-text{
+.container-text{
     display: grid;
-    grid-template-columns: 250px 250px;
-    grid-template-rows: 260px 260px;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: 18rem 18rem;
     padding: 30px;
     margin: auto;
 }
 
-div.text{
+.text{
     size: 10%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
 }
+
 
 p{
     color: #696969;
     font-size: 18px;
-    align-items: center;
+    text-align: center;
 }
 
 .text i{
